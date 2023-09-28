@@ -60,7 +60,7 @@ const redactorState = reactive({
         намеченных плановых заданий требуют от нас анализа системы обучения
         кадров, соответствует насущным потребностям.`,
 
-        imageSrc: "../../src/assets//monkeys-img.jpg"
+        imageSrc: "/monkeys-img.jpg"
 });
 const redactorElement = ref();
 
