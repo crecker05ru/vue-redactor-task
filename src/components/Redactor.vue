@@ -60,7 +60,7 @@ const redactorState = reactive({
         намеченных плановых заданий требуют от нас анализа системы обучения
         кадров, соответствует насущным потребностям.`,
 
-        imageSrc: "/monkeys-img.jpg"
+        imageSrc: "./monkeys-img.jpg"
 });
 const redactorElement = ref();
 
@@ -114,19 +114,19 @@ const toParagraph = async () => {
     outline: none;
     border-style: none;
     &-back {
-      background-image: url("../assets/back-icon.svg");
+      background-image: url("./assets/back-icon.svg");
     }
     &-forward {
-      background-image: url("../assets/forward-icon.svg");
+      background-image: url("./assets/forward-icon.svg");
     }
     &-title {
-      background-image: url("../assets/title-icon.svg");
+      background-image: url("./assets/title-icon.svg");
     }
     &-paragraph {
-      background-image: url("../assets/paragraph-icon.svg");
+      background-image: url("./assets/paragraph-icon.svg");
     }
     &-image {
-      background-image: url("../assets/image-icon.svg");
+      background-image: url("./assets/image-icon.svg");
     }
     &-copy {
       width: auto;
